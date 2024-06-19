@@ -1,10 +1,10 @@
 {
-  "name": "Project",
+  "name": "expense",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve -o",
-    "build": "ng build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
